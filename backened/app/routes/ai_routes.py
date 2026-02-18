@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from openai import OpenAI
 import os
-from app.config import OPENAI_API_KEY 
+from config import OPENAI_API_KEY 
 
 router = APIRouter(prefix="/api/ai")
 
