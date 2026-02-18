@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8000/api";
+const API = "https://smart-blog-editor-fdl1.onrender.com";
 
 
 
