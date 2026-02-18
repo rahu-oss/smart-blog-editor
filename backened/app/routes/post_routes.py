@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Request
 from bson import ObjectId
-from app.database import posts_collection
+from database import posts_collection
 
 router = APIRouter(prefix="/api/posts")
 
