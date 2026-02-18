@@ -1,5 +1,5 @@
 from jose import jwt
-from app.config import JWT_SECRET
+from config import JWT_SECRET
 
 SECRET = "mysecret123"
 
