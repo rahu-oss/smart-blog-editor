@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routes import auth_routes, post_routes, ai_routes
+from routes import auth_routes, post_routes, ai_routes
 
 
 app = FastAPI()
